@@ -1,3 +1,11 @@
+EQUIPO 3 
+LuisoDev1 = portafolio
+eduard-jcs = services
+brainspeck = contact
+JuanMasis777 = footer
+jonasjchavez-bit = tagline
+
+
 <!-- hide -->
 # Making a website as a team (Git collaboration)
 <!-- endhide -->
