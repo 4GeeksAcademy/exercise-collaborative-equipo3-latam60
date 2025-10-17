@@ -1,20 +1,50 @@
 <!-- your html code here -->
-<div class="container contact-main-container d-flex justify-content-center">
-    <div class="container title-container">
-        <h4>Contact</h4>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio totam provident beatae dolor quae earum consequuntur quisquam repellendus quos sit. Minus in esse labore, dicta reiciendis modi consequatur.</p>
-    </div>
-    <!--Form start-->
-        <form action="submit">
-            <div class="container d-flex justify-content-center">
-                <div class="card shadow-sm">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Submit</a>
-                    </div>
-                </div>     
+<section class="main-container">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-9">
+                <h2 class="fw-bold mb-3">Contact</h2>
+                <p class="lead mb-4 fs-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit dicta animi optio illo, maiores repellat quam soluta impedit hic a maxime dolore distinctio beatae deserunt cum explicabo voluptatum reiciendis eos!</p>
             </div>
-        </form>
-    <!--Form end-->
-</div>
+        </div>
+        <div class="row">
+            <div class="col-md-8 mx-auto"> 
+                <div class="card shadow-sm my-3 border">
+                    <div class="card-body bg-light p-4">
+                        <!--Form start-->
+                        <form action="">
+                            <div class="row g-3">
+                                <!--Email start-->
+                                <div class="col-sm-3 text-sm-end fw-semibold align-self-center">
+                                    <label for="email" class="form-label mb-0">Your E-mail</label>
+                                </div>
+                                <div class="col-sm-9">
+                                    <input type="email" id="email" class="form-control" placeholder="Your email">
+                                </div>
+                                <!--Email end-->
+
+                                <!--Message start-->
+                                <div class="col-sm-3 text-sm-end fw-semibold align-self-start">
+                                    <label for="message" class="form-label mb-0">Your message</label>
+                                </div>
+                                <div class="col-sm-9">
+                                    <textarea rows="4" id="message" class="form-control" placeholder="Please enter your message here..."></textarea>
+                                </div>
+                                <!--Message end-->
+
+                                <!--Button start-->
+                                <div class="col-12">
+                                    <div class="d-flex justify-content-end">
+                                        <button class="btn btn-primary px-4">Submit</button>
+                                    </div>
+                                </div>
+                                <!--Button end-->
+                            </div>
+                        </form>
+                        <!--Form end-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
