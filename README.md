@@ -1,8 +1,8 @@
 EQUIPO 3 
-Luis (LuisoDev1) = portafolio
-Eduard (eduard-jcs) = services
-Erik (brainspeck) = contact
-Juan (JuanMasis777) = footer
+Luis (LuisoDev1) = portafolio |
+Eduard (eduard-jcs) = services |
+Erik (brainspeck) = contact |
+Juan (JuanMasis777) = footer |
 Jonas (jonasjchavez-bit) = tagline
 
 
